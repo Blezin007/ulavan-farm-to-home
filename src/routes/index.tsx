@@ -73,6 +73,7 @@ function Home() {
 /* ---------- NAV ---------- */
 function Nav() {
   const [open, setOpen] = useState(false);
+  
   return (
     <header className="sticky top-0 z-40 backdrop-blur-md bg-background/80 border-b border-border/60">
       <div className="container-x flex items-center justify-between h-16 md:h-20">
