@@ -60,10 +60,10 @@ function Home() {
       <WhyUs />
       <HealthBenefits />
       <Process />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <FAQ />
-      <Newsletter />
-      <Contact />
+      {/* <Newsletter /> */}
+      {/* <Contact /> */}
       <Footer />
       <MobileBottomNav />
     </div>
