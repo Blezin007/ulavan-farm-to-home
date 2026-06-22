@@ -31,13 +31,13 @@ export const Route = createFileRoute("/")({
 });
 
 const products = [
-  { name: "Pearl Millet", tamil: "Kambu", img: pKambu, blurb: "Cooling summer grain, hearty and ancient.", benefits: ["High fiber", "Energy rich", "Aids digestion"] },
-  { name: "Finger Millet", tamil: "Ragi", img: pRagi, blurb: "Calcium-dense staple of South Indian kitchens.", benefits: ["Rich in calcium", "Bone health", "Nutrient dense"] },
-  { name: "Maize Rava", tamil: "Makkaravai", img: pMaize, blurb: "Golden, versatile and naturally sweet.", benefits: ["Versatile", "Carbohydrate source", "Traditional recipes"] },
-  { name: "Kodo Millet", tamil: "Varagarisi", img: pKodo, blurb: "An antioxidant-rich heirloom millet.", benefits: ["Antioxidants", "High fiber", "Lifestyle choice"] },
-  { name: "Little Millet", tamil: "Saamai", img: pLittle, blurb: "Delicate, easy-to-digest daily grain.", benefits: ["Easy digestion", "Nutrient rich", "Everyday meals"] },
-  { name: "Foxtail Millet", tamil: "Thinai", img: pFoxtail, blurb: "Protein-rich grain of ancient kitchens.", benefits: ["Protein rich", "Healthy diet", "Traditional"] },
-  { name: "Barnyard Millet", tamil: "Kudhiraivaali", img: pBarnyard, blurb: "Low-calorie millet for mindful eating.", benefits: ["Low calorie", "High fiber", "Healthy eating"] },
+  { name: "Pearl Millet", tamil: "கம்பு", img: pKambu, blurb: "Cooling summer grain, hearty and ancient.", benefits: ["High fiber", "Energy rich", "Aids digestion"] },
+  { name: "Finger Millet", tamil: "ராகி", img: pRagi, blurb: "Calcium-dense staple of South Indian kitchens.", benefits: ["Rich in calcium", "Bone health", "Nutrient dense"] },
+  { name: "Maize Rava", tamil: "மக்காரவை", img: pMaize, blurb: "Golden, versatile and naturally sweet.", benefits: ["Versatile", "Carbohydrate source", "Traditional recipes"] },
+  { name: "Kodo Millet", tamil: "வரகரிசி", img: pKodo, blurb: "An antioxidant-rich heirloom millet.", benefits: ["Antioxidants", "High fiber", "Lifestyle choice"] },
+  { name: "Little Millet", tamil: "சாமை", img: pLittle, blurb: "Delicate, easy-to-digest daily grain.", benefits: ["Easy digestion", "Nutrient rich", "Everyday meals"] },
+  { name: "Foxtail Millet", tamil: "தினை", img: pFoxtail, blurb: "Protein-rich grain of ancient kitchens.", benefits: ["Protein rich", "Healthy diet", "Traditional"] },
+  { name: "Barnyard Millet", tamil: "குதிரைவாளி", img: pBarnyard, blurb: "Low-calorie millet for mindful eating.", benefits: ["Low calorie", "High fiber", "Healthy eating"] },
 ];
 
 const faqs = [
