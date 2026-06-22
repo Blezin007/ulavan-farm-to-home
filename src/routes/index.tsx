@@ -60,10 +60,10 @@ function Home() {
       <WhyUs />
       <HealthBenefits />
       <Process />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <FAQ />
-      <Newsletter />
-      <Contact />
+      {/* <Newsletter /> */}
+      {/* <Contact /> */}
       <Footer />
       <MobileBottomNav />
     </div>
@@ -91,9 +91,9 @@ function Nav() {
           ))}
         </nav>
         <div className="flex items-center gap-2">
-          <button className="hidden sm:grid place-items-center h-10 w-10 rounded-full hover:bg-accent transition-colors" aria-label="Search"><Search className="h-4 w-4" /></button>
+          {/* <button className="hidden sm:grid place-items-center h-10 w-10 rounded-full hover:bg-accent transition-colors" aria-label="Search"><Search className="h-4 w-4" /></button>
           <button className="hidden sm:grid place-items-center h-10 w-10 rounded-full hover:bg-accent transition-colors" aria-label="Wishlist"><Heart className="h-4 w-4" /></button>
-          <button className="grid place-items-center h-10 w-10 rounded-full bg-primary text-primary-foreground hover:opacity-90 transition" aria-label="Cart"><ShoppingBag className="h-4 w-4" /></button>
+          <button className="grid place-items-center h-10 w-10 rounded-full bg-primary text-primary-foreground hover:opacity-90 transition" aria-label="Cart"><ShoppingBag className="h-4 w-4" /></button> */}
           <button onClick={() => setOpen(v => !v)} className="md:hidden grid place-items-center h-10 w-10 rounded-full hover:bg-accent" aria-label="Menu"><Menu className="h-4 w-4" /></button>
         </div>
       </div>
